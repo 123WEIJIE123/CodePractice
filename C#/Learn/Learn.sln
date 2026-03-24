@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.35826.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn", "Learn.csproj", "{AE222A28-10AA-4134-BB5E-A96FDD37F252}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "链表", "..\链表\链表.csproj", "{D451A9D6-5F59-4C6B-9B01-60AF75392B5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AE222A28-10AA-4134-BB5E-A96FDD37F252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE222A28-10AA-4134-BB5E-A96FDD37F252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE222A28-10AA-4134-BB5E-A96FDD37F252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D451A9D6-5F59-4C6B-9B01-60AF75392B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D451A9D6-5F59-4C6B-9B01-60AF75392B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D451A9D6-5F59-4C6B-9B01-60AF75392B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D451A9D6-5F59-4C6B-9B01-60AF75392B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

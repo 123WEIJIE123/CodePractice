@@ -1,0 +1,16 @@
+I:\CodePractice\C#\链表\bin\Debug\net5.0\链表.exe
+I:\CodePractice\C#\链表\bin\Debug\net5.0\链表.deps.json
+I:\CodePractice\C#\链表\bin\Debug\net5.0\链表.runtimeconfig.json
+I:\CodePractice\C#\链表\bin\Debug\net5.0\链表.runtimeconfig.dev.json
+I:\CodePractice\C#\链表\bin\Debug\net5.0\链表.dll
+I:\CodePractice\C#\链表\bin\Debug\net5.0\ref\链表.dll
+I:\CodePractice\C#\链表\bin\Debug\net5.0\链表.pdb
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.csproj.AssemblyReference.cache
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.AssemblyInfoInputs.cache
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.AssemblyInfo.cs
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.dll
+I:\CodePractice\C#\链表\obj\Debug\net5.0\ref\链表.dll
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.pdb
+I:\CodePractice\C#\链表\obj\Debug\net5.0\链表.genruntimeconfig.cache
