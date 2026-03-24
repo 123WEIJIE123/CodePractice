@@ -96,10 +96,19 @@ namespace 链表
 
                 if (node.nextNode.value.Equals(value))
                 {   
-                    //让当前找到的这个元素的 上一个节点
-                    //指向 自己的下一个节点
-                    node.nextNode = node.nextNode.nextNode;
-                    break;
+                    if(node.nextNode.nextNode == null)
+                    {   
+                        node.nextNode = null;
+                        last = node;
+                        break;
+                    }
+                    else
+                    {
+                        //让当前找到的这个元素的 上一个节点
+                        //指向 自己的下一个节点
+                        node.nextNode = node.nextNode.nextNode;
+                        break;
+                    }
                 }
                 node = node.nextNode;
             }
