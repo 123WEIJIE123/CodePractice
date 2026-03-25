@@ -1,0 +1,16 @@
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\双向链表练习.exe
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\双向链表练习.deps.json
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\双向链表练习.runtimeconfig.json
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\双向链表练习.runtimeconfig.dev.json
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\双向链表练习.dll
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\ref\双向链表练习.dll
+I:\CodePractice\C#\双向链表练习\bin\Debug\net5.0\双向链表练习.pdb
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.csproj.AssemblyReference.cache
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.AssemblyInfoInputs.cache
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.AssemblyInfo.cs
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.dll
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\ref\双向链表练习.dll
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.pdb
+I:\CodePractice\C#\双向链表练习\obj\Debug\net5.0\双向链表练习.genruntimeconfig.cache
