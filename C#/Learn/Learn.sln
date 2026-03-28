@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn", "Learn.csproj", "{A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "链表", "..\链表\链表.csproj", "{D451A9D6-5F59-4C6B-9B01-60AF75392B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "双向链表练习", "..\双向链表练习\双向链表练习.csproj", "{D21C9AA6-87AD-46C5-9E01-51B3C76C2497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "双向链表练习", "..\双向链表练习\双向链表练习.csproj", "{D21C9AA6-87AD-46C5-9E01-51B3C76C2497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "匿名函数", "..\匿名函数\匿名函数.csproj", "{70112936-8857-410A-90F1-50FB13739081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D21C9AA6-87AD-46C5-9E01-51B3C76C2497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D21C9AA6-87AD-46C5-9E01-51B3C76C2497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D21C9AA6-87AD-46C5-9E01-51B3C76C2497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70112936-8857-410A-90F1-50FB13739081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70112936-8857-410A-90F1-50FB13739081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70112936-8857-410A-90F1-50FB13739081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70112936-8857-410A-90F1-50FB13739081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
