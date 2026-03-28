@@ -1,0 +1,16 @@
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\List排序.exe
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\List排序.deps.json
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\List排序.runtimeconfig.json
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\List排序.runtimeconfig.dev.json
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\List排序.dll
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\ref\List排序.dll
+I:\CodePractice\C#\List排序\bin\Debug\net5.0\List排序.pdb
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.csproj.AssemblyReference.cache
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.AssemblyInfoInputs.cache
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.AssemblyInfo.cs
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.dll
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\ref\List排序.dll
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.pdb
+I:\CodePractice\C#\List排序\obj\Debug\net5.0\List排序.genruntimeconfig.cache
