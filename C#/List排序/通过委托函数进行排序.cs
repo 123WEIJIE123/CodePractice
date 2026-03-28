@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace List排序
 {
+    
     class ShopItem
     {
+
         public int id;
 
         public ShopItem(int id)
