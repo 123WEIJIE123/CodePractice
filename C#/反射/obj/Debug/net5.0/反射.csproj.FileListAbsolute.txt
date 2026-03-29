@@ -1,0 +1,16 @@
+I:\CodePractice\C#\反射\bin\Debug\net5.0\反射.exe
+I:\CodePractice\C#\反射\bin\Debug\net5.0\反射.deps.json
+I:\CodePractice\C#\反射\bin\Debug\net5.0\反射.runtimeconfig.json
+I:\CodePractice\C#\反射\bin\Debug\net5.0\反射.runtimeconfig.dev.json
+I:\CodePractice\C#\反射\bin\Debug\net5.0\反射.dll
+I:\CodePractice\C#\反射\bin\Debug\net5.0\ref\反射.dll
+I:\CodePractice\C#\反射\bin\Debug\net5.0\反射.pdb
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.csproj.AssemblyReference.cache
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.AssemblyInfoInputs.cache
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.AssemblyInfo.cs
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.dll
+I:\CodePractice\C#\反射\obj\Debug\net5.0\ref\反射.dll
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.pdb
+I:\CodePractice\C#\反射\obj\Debug\net5.0\反射.genruntimeconfig.cache
