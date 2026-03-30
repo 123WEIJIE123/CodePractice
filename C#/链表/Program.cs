@@ -40,13 +40,14 @@ namespace 链表
     class LinkedNode<T>
     {
         public T value;
-        //这个存储下一个元素是谁 相当与钩子
+        //这个存储下一个元素是谁 相当与钩
         public LinkedNode<T> nextNode;
             
         public LinkedNode(T value)
         {
             this.value = value;
         }
+
     }
 
     /// <summary>

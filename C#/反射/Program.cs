@@ -171,10 +171,60 @@ namespace 反射
             #endregion
 
             #region Assembly
+            //程序集类
+            //主要用来加载程序集，加载后
+            //才能用Type来使用其他程序集中的信息
+            //如果想要使用不是自己程序集中的内容 需要先加载程序集
+            //比如dll文件（库文件）
 
+            //三种加载程序集的函数
+            //一般用来加载在同一文件下的其他程序集
+            //Assembly assembly2 = Assembly.Load("程序集名称");
+
+            //一般用来加载不在同一文件下的其他程序集
+            //Assembly assembly = Assembly.LoadFrom("包含程序集清单的文件的名称或路径");
+            //Assembly assembly3 = Assembly.LoadFile("要加载的文件的完全限定路径");
+
+            //1.先加载一个指定程序集
+            Console.WriteLine("*********************Assembly*********************");
+            Assembly assembly = Assembly.LoadFrom(@"I:\CodePractice\C#\链表\bin\Debug\net5.0\链表");
+            Type[] types = assembly.GetTypes();
+            for(int i = 0; i < types.Length; i++)
+            {
+                Console.WriteLine(types[i]);
+            }
+            //2.再加载程序集中的一个类对象 之后才能使用反射
+
+            Type listListGeneric = assembly.GetType("链表.LinkedList`1");
+            Type listNode = null;
+            if (listListGeneric != null)
+            {
+                // 创建具体类型的泛型类（例如使用int类型）
+                listNode = listListGeneric.MakeGenericType(typeof(int));
+
+                MemberInfo[] members = listNode.GetMembers();
+                for (int i = 0; i < members.Length; i++)
+                {
+                    Console.WriteLine(members[i]);
+                }
+            }
+            else
+            {
+                Console.WriteLine("未找到类型");
+            }
+            //通过反射 实例化一个 ListNode 对象
+            object ListNode = Activator.CreateInstance(listNode);
+            MethodInfo add = listNode.GetMethod("Add");
+            MethodInfo remove = listNode.GetMethod("Remove");
+
+            add.Invoke(ListNode, new object[] { 1 });
+            add.Invoke(ListNode, new object[] { 2 });
+            add.Invoke(ListNode, new object[] { 3 });
+            //3.类库工程创建
             #endregion
 
             #region Activator
+            Console.WriteLine("*********************Activator*********************");
             //用于快速实例化对象的类
             //用于将Type对象快捷实例化为对象
             //先得到Type
