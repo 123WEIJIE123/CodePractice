@@ -196,13 +196,16 @@ namespace 反射
             //2.再加载程序集中的一个类对象 之后才能使用反射
 
             Type listListGeneric = assembly.GetType("链表.LinkedList`1");
-            Type listNode = null;
+            Type listNodeGeneric = assembly.GetType("链表.LinkedNode`1");
+            Type listNodeType = null;
+            Type linkedListType = null;
             if (listListGeneric != null)
             {
                 // 创建具体类型的泛型类（例如使用int类型）
-                listNode = listListGeneric.MakeGenericType(typeof(int));
+                linkedListType = listListGeneric.MakeGenericType(typeof(int));
+                listNodeType = listNodeGeneric.MakeGenericType(typeof(int));
 
-                MemberInfo[] members = listNode.GetMembers();
+                MemberInfo[] members = linkedListType.GetMembers();
                 for (int i = 0; i < members.Length; i++)
                 {
                     Console.WriteLine(members[i]);
@@ -213,13 +216,54 @@ namespace 反射
                 Console.WriteLine("未找到类型");
             }
             //通过反射 实例化一个 ListNode 对象
-            object ListNode = Activator.CreateInstance(listNode);
-            MethodInfo add = listNode.GetMethod("Add");
-            MethodInfo remove = listNode.GetMethod("Remove");
+            object LinkedList = Activator.CreateInstance(linkedListType);
+            MethodInfo add = linkedListType.GetMethod("Add");
+            MethodInfo remove = linkedListType.GetMethod("Remove");
 
-            add.Invoke(ListNode, new object[] { 1 });
-            add.Invoke(ListNode, new object[] { 2 });
-            add.Invoke(ListNode, new object[] { 3 });
+            add.Invoke(LinkedList, new object[] { 1 });
+            add.Invoke(LinkedList, new object[] { 2 });
+            add.Invoke(LinkedList, new object[] { 3 });
+            add.Invoke(LinkedList, new object[] { 4 });
+
+            // 获取 head 字段
+            FieldInfo head = linkedListType.GetField("head");
+            object LinkedNode = head.GetValue(LinkedList);
+
+            // 打印链表内容
+            Console.WriteLine("\n链表内容：");
+            while (LinkedNode != null)
+            {
+                // 获取 value 字段
+                FieldInfo valueField = listNodeType.GetField("value");
+                object value = valueField.GetValue(LinkedNode);
+                Console.WriteLine(value);
+
+                // 获取 nextNode 字段并移动到下一个节点
+                FieldInfo nextNodeField = listNodeType.GetField("nextNode");
+                LinkedNode = nextNodeField.GetValue(LinkedNode);
+            }
+
+            // 删除元素
+            Console.WriteLine("\n删除元素 4 和 3 后：");
+            remove.Invoke(LinkedList, new object[] { 4 });
+            remove.Invoke(LinkedList, new object[] { 3 });
+
+            // 重新获取 head 并打印
+            LinkedNode = head.GetValue(LinkedList);
+            while (LinkedNode != null)
+            {
+                FieldInfo valueField = listNodeType.GetField("value");
+                object value = valueField.GetValue(LinkedNode);
+                Console.WriteLine(value);
+
+                FieldInfo nextNodeField = listNodeType.GetField("nextNode");
+                LinkedNode = nextNodeField.GetValue(LinkedNode);
+            }
+
+
+
+            // Node = 
+
             //3.类库工程创建
             #endregion
 
@@ -241,5 +285,7 @@ namespace 反射
             Console.WriteLine(testObj.j);
             #endregion
         }
+  
+
     }
 }
