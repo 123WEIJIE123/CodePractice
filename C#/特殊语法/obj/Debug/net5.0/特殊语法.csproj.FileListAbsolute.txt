@@ -1,0 +1,15 @@
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\特殊语法.exe
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\特殊语法.deps.json
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\特殊语法.runtimeconfig.json
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\特殊语法.runtimeconfig.dev.json
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\特殊语法.dll
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\ref\特殊语法.dll
+I:\CodePractice\C#\特殊语法\bin\Debug\net5.0\特殊语法.pdb
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.AssemblyInfoInputs.cache
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.AssemblyInfo.cs
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.dll
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\ref\特殊语法.dll
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.pdb
+I:\CodePractice\C#\特殊语法\obj\Debug\net5.0\特殊语法.genruntimeconfig.cache

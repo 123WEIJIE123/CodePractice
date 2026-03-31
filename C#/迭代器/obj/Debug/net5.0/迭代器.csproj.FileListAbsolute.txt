@@ -1,0 +1,16 @@
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\迭代器.exe
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\迭代器.deps.json
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\迭代器.runtimeconfig.json
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\迭代器.runtimeconfig.dev.json
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\迭代器.dll
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\ref\迭代器.dll
+I:\CodePractice\C#\迭代器\bin\Debug\net5.0\迭代器.pdb
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.csproj.AssemblyReference.cache
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.AssemblyInfoInputs.cache
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.AssemblyInfo.cs
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.dll
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\ref\迭代器.dll
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.pdb
+I:\CodePractice\C#\迭代器\obj\Debug\net5.0\迭代器.genruntimeconfig.cache
