@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "反射", "..\反射\反射.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "迭代器", "..\迭代器\迭代器.csproj", "{3E227478-F0B4-4335-9478-A81633BBEE40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "特殊语法", "..\特殊语法\特殊语法.csproj", "{399A4D82-90EF-4DBE-BA9F-F24C324D2F24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "特殊语法", "..\特殊语法\特殊语法.csproj", "{399A4D82-90EF-4DBE-BA9F-F24C324D2F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "插入排序", "..\排序_插入排序\插入排序.csproj", "{6DB8DE8F-2F06-412B-931A-7A269113DAB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "排序", "排序", "{6CF55084-D184-4F87-A1B9-9D51259C2503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,9 +61,16 @@ Global
 		{399A4D82-90EF-4DBE-BA9F-F24C324D2F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{399A4D82-90EF-4DBE-BA9F-F24C324D2F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{399A4D82-90EF-4DBE-BA9F-F24C324D2F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB8DE8F-2F06-412B-931A-7A269113DAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB8DE8F-2F06-412B-931A-7A269113DAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB8DE8F-2F06-412B-931A-7A269113DAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB8DE8F-2F06-412B-931A-7A269113DAB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DB8DE8F-2F06-412B-931A-7A269113DAB6} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E5F0E71-B382-4166-B612-CD0EDCA2ECD8}
