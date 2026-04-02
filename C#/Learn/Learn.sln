@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "插入排序", "..\排序_�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "排序", "排序", "{6CF55084-D184-4F87-A1B9-9D51259C2503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "希尔排序", "..\希尔排序\希尔排序.csproj", "{355F78AA-EB2B-430C-B4AD-FDB9C3F8EAB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "希尔排序", "..\希尔排序\希尔排序.csproj", "{355F78AA-EB2B-430C-B4AD-FDB9C3F8EAB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "归并排序", "..\归并排序\归并排序.csproj", "{5A5B8253-96DE-426F-B620-232214A11410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "快速排序", "..\快速排序\快速排序.csproj", "{F03D0837-795C-463F-8BD9-6E058B95D92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "堆排序", "..\堆排序\堆排序.csproj", "{E2F5CF61-9381-4300-B567-C582077E89A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +77,18 @@ Global
 		{355F78AA-EB2B-430C-B4AD-FDB9C3F8EAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355F78AA-EB2B-430C-B4AD-FDB9C3F8EAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355F78AA-EB2B-430C-B4AD-FDB9C3F8EAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5B8253-96DE-426F-B620-232214A11410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5B8253-96DE-426F-B620-232214A11410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5B8253-96DE-426F-B620-232214A11410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5B8253-96DE-426F-B620-232214A11410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03D0837-795C-463F-8BD9-6E058B95D92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03D0837-795C-463F-8BD9-6E058B95D92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03D0837-795C-463F-8BD9-6E058B95D92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03D0837-795C-463F-8BD9-6E058B95D92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F5CF61-9381-4300-B567-C582077E89A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F5CF61-9381-4300-B567-C582077E89A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F5CF61-9381-4300-B567-C582077E89A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F5CF61-9381-4300-B567-C582077E89A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +96,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6DB8DE8F-2F06-412B-931A-7A269113DAB6} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
 		{355F78AA-EB2B-430C-B4AD-FDB9C3F8EAB8} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
+		{5A5B8253-96DE-426F-B620-232214A11410} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
+		{F03D0837-795C-463F-8BD9-6E058B95D92F} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
+		{E2F5CF61-9381-4300-B567-C582077E89A5} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E5F0E71-B382-4166-B612-CD0EDCA2ECD8}

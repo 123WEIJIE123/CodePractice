@@ -1,0 +1,16 @@
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\堆排序.exe
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\堆排序.deps.json
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\堆排序.runtimeconfig.json
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\堆排序.runtimeconfig.dev.json
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\堆排序.dll
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\ref\堆排序.dll
+I:\CodePractice\C#\堆排序\bin\Debug\net5.0\堆排序.pdb
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.csproj.AssemblyReference.cache
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.AssemblyInfoInputs.cache
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.AssemblyInfo.cs
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.dll
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\ref\堆排序.dll
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.pdb
+I:\CodePractice\C#\堆排序\obj\Debug\net5.0\堆排序.genruntimeconfig.cache

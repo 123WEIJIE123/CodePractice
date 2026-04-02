@@ -1,0 +1,16 @@
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.csproj.AssemblyReference.cache
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.AssemblyInfoInputs.cache
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.AssemblyInfo.cs
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\归并排序.exe
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\归并排序.deps.json
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\归并排序.runtimeconfig.json
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\归并排序.runtimeconfig.dev.json
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\归并排序.dll
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\ref\归并排序.dll
+I:\CodePractice\C#\归并排序\bin\Debug\net5.0\归并排序.pdb
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.dll
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\ref\归并排序.dll
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.pdb
+I:\CodePractice\C#\归并排序\obj\Debug\net5.0\归并排序.genruntimeconfig.cache
