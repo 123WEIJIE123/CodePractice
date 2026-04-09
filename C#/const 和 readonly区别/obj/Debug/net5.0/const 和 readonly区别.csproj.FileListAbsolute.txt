@@ -1,0 +1,15 @@
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\const 和 readonly区别.exe
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\const 和 readonly区别.deps.json
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\const 和 readonly区别.runtimeconfig.json
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\const 和 readonly区别.runtimeconfig.dev.json
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\const 和 readonly区别.dll
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\ref\const 和 readonly区别.dll
+I:\CodePractice\C#\const 和 readonly区别\bin\Debug\net5.0\const 和 readonly区别.pdb
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.AssemblyInfoInputs.cache
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.AssemblyInfo.cs
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.dll
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\ref\const 和 readonly区别.dll
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.pdb
+I:\CodePractice\C#\const 和 readonly区别\obj\Debug\net5.0\const 和 readonly区别.genruntimeconfig.cache

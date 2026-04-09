@@ -1,0 +1,15 @@
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.GeneratedMSBuildEditorConfig.editorconfig
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.AssemblyInfoInputs.cache
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.AssemblyInfo.cs
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.csproj.CoreCompileInputs.cache
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\线程Sleep 和 Wait.exe
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\线程Sleep 和 Wait.deps.json
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\线程Sleep 和 Wait.runtimeconfig.json
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\线程Sleep 和 Wait.runtimeconfig.dev.json
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\线程Sleep 和 Wait.dll
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\ref\线程Sleep 和 Wait.dll
+I:\CodePractice\C#\线程Sleep 和 Wait\bin\Debug\net5.0\线程Sleep 和 Wait.pdb
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.dll
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\ref\线程Sleep 和 Wait.dll
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.pdb
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.genruntimeconfig.cache

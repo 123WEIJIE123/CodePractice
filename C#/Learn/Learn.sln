@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "归并排序", "..\归并�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "快速排序", "..\快速排序\快速排序.csproj", "{F03D0837-795C-463F-8BD9-6E058B95D92F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "堆排序", "..\堆排序\堆排序.csproj", "{E2F5CF61-9381-4300-B567-C582077E89A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "堆排序", "..\堆排序\堆排序.csproj", "{E2F5CF61-9381-4300-B567-C582077E89A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他", "其他", "{9DA5E0C1-834D-4E2F-B549-C5850720AC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "const 和 readonly区别", "..\const 和 readonly区别\const 和 readonly区别.csproj", "{F9DFB70A-F778-4FDA-8BE4-4EA995BE7FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程Sleep 和 Wait", "..\线程Sleep 和 Wait\线程Sleep 和 Wait.csproj", "{15A502D9-A8A2-400F-909E-47175A79BE4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{E2F5CF61-9381-4300-B567-C582077E89A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2F5CF61-9381-4300-B567-C582077E89A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2F5CF61-9381-4300-B567-C582077E89A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DFB70A-F778-4FDA-8BE4-4EA995BE7FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DFB70A-F778-4FDA-8BE4-4EA995BE7FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DFB70A-F778-4FDA-8BE4-4EA995BE7FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DFB70A-F778-4FDA-8BE4-4EA995BE7FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A502D9-A8A2-400F-909E-47175A79BE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A502D9-A8A2-400F-909E-47175A79BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A502D9-A8A2-400F-909E-47175A79BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A502D9-A8A2-400F-909E-47175A79BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +113,8 @@ Global
 		{5A5B8253-96DE-426F-B620-232214A11410} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
 		{F03D0837-795C-463F-8BD9-6E058B95D92F} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
 		{E2F5CF61-9381-4300-B567-C582077E89A5} = {6CF55084-D184-4F87-A1B9-9D51259C2503}
+		{F9DFB70A-F778-4FDA-8BE4-4EA995BE7FC2} = {9DA5E0C1-834D-4E2F-B549-C5850720AC50}
+		{15A502D9-A8A2-400F-909E-47175A79BE4E} = {9DA5E0C1-834D-4E2F-B549-C5850720AC50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E5F0E71-B382-4166-B612-CD0EDCA2ECD8}
