@@ -1,0 +1,5 @@
+﻿  atuo变量.cpp
+I:\CodePractice\C++\atuo变量\atuo变量.cpp(13,23): warning C4018: “<”: 有符号/无符号不匹配
+I:\CodePractice\C++\atuo变量\atuo变量.cpp(26,23): warning C4018: “<”: 有符号/无符号不匹配
+I:\CodePractice\C++\atuo变量\atuo变量.cpp(39,23): warning C4018: “<”: 有符号/无符号不匹配
+  atuo变量.vcxproj -> I:\CodePractice\C++\C++\Debug\atuo变量.exe
