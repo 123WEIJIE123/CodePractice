@@ -13,3 +13,4 @@ I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.dl
 I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\ref\线程Sleep 和 Wait.dll
 I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.pdb
 I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.genruntimeconfig.cache
+I:\CodePractice\C#\线程Sleep 和 Wait\obj\Debug\net5.0\线程Sleep 和 Wait.csproj.AssemblyReference.cache

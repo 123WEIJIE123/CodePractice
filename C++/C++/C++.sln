@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他", "其他", "{9DBBC1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atuo变量", "..\atuo变量\atuo变量.vcxproj", "{01B47636-F6A3-4BF4-922C-1B9FC6ADAA7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "排序", "排序", "{CAF95A46-26FE-4949-A979-5DCCA14A2842}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "堆排序", "..\堆排序\堆排序.vcxproj", "{9E600845-D01D-436A-8614-8367F1E59BAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,12 +37,21 @@ Global
 		{01B47636-F6A3-4BF4-922C-1B9FC6ADAA7E}.Release|x64.Build.0 = Release|x64
 		{01B47636-F6A3-4BF4-922C-1B9FC6ADAA7E}.Release|x86.ActiveCfg = Release|Win32
 		{01B47636-F6A3-4BF4-922C-1B9FC6ADAA7E}.Release|x86.Build.0 = Release|Win32
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Debug|x64.ActiveCfg = Debug|x64
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Debug|x64.Build.0 = Debug|x64
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Debug|x86.Build.0 = Debug|Win32
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Release|x64.ActiveCfg = Release|x64
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Release|x64.Build.0 = Release|x64
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Release|x86.ActiveCfg = Release|Win32
+		{9E600845-D01D-436A-8614-8367F1E59BAA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01B47636-F6A3-4BF4-922C-1B9FC6ADAA7E} = {9DBBC1AD-CEB1-4EFD-995E-F749F8186012}
+		{9E600845-D01D-436A-8614-8367F1E59BAA} = {CAF95A46-26FE-4949-A979-5DCCA14A2842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2EAD8966-F29C-4AC1-8AE1-51D840FE0039}
