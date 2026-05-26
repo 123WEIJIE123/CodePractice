@@ -1,0 +1,48 @@
+## C# / .NET Framework
+[Bb]in/
+[Oo]bj/
+*.exe
+*.pdb
+*.cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.user
+.vs/
+*.log
+
+## Unity (if applicable)
+[Ll]ibrary/
+[Tt]emp/
+[Uu]serSettings/
+*.unitypackage
+# *.csproj kept for .NET projects
+*.pidb
+*.booproj
+*.sln
+*.sln.cache
+
+## Build artifacts
+*.dll
+*.exe.config
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Claude Code
+.claude/
+.superpowers/
+
+## Python
+__pycache__/
+*.pyc
+
+## Temporary Office files
+~$*

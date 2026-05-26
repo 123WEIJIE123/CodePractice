@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美团外卖系统 — UML 类图</title>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; color: #333; }
+  h2 { color: #2c3e50; }
+  .subtitle { color: #666; }
+  .diagram-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .table-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  .table-section h3 { margin-top: 0; color: #2c3e50; }
+  .relation-explain {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  .relation-explain h3 { margin-top: 0; color: #2c3e50; }
+  .relation-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-left: 4px solid #2c3e50;
+  }
+  .relation-card h4 { margin: 0 0 6px 0; color: #2c3e50; font-size: 14px; }
+  .relation-card .notation {
+    font-family: 'Courier New', monospace;
+    color: #e74c3c;
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .relation-card p { margin: 4px 0; font-size: 13px; line-height: 1.5; }
+  .relation-card .example { color: #2980b9; font-size: 12px; }
+  .strength-bar {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 2px;
+  }
+  .strength-bar .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ddd;
+  }
+  .strength-bar .dot.filled { background: #2c3e50; }
+  table { font-size: 12px; border-collapse: collapse; font-family: 'Courier New', monospace; }
+  th { background: #2c3e50; color: #fff; padding: 6px 12px; text-align: left; }
+  td { padding: 4px 8px; border-bottom: 1px solid #ddd; }
+  tr:nth-child(even) td { background: #fafafa; }
+</style>
+</head>
+<body>
+
+<h2>美团外卖系统 — UML 类图</h2>
+<p class="subtitle">展示全部类、枚举、属性、方法及关系连线</p>
+
+<div class="diagram-wrapper">
+<div class="mermaid">
+classDiagram
+    class Meituan {
+        +List~Customer~ Customers
+        +List~Merchant~ Merchants
+        +List~Deliveryman~ Deliverymen
+        +RegisterCustomer(name, phone, address) Customer
+        +RegisterMerchant(name, address, phone) Merchant
+        +RegisterDeliveryman(name, phone) Deliveryman
+        +FindAvailableDeliveryman() Deliveryman
+        +PlaceOrder(customer, merchant, address, items) Order
+    }
+    class Customer {
+        +string Name
+        +string Phone
+        +string Address
+        +Customer(name, phone, address)
+        +PlaceOrder(merchant, address, items) Order
+    }
+    class Merchant {
+        +string Name
+        +string Address
+        +string Phone
+        +List~MenuItem~ Menu
+        +Merchant(name, address, phone)
+        +AddMenuItem(name, price)
+        +DisplayMenu()
+    }
+    class Deliveryman {
+        +string Name
+        +string Phone
+        +bool IsBusy
+        +Order CurrentOrder
+        +Deliveryman(name, phone)
+        +AcceptOrder(order)
+        +DeliverOrder()
+    }
+    class Order {
+        +string OrderId
+        +Customer Customer
+        +Merchant Merchant
+        +OrderStatus Status
+        +DateTime OrderTime
+        +decimal TotalAmount
+        +List~OrderItem~ Items
+        +string DeliveryAddress
+        +Order(customer, merchant, address)
+        +UpdateStatus(newStatus)
+        +AddItem(itemName, price, quantity)
+        -CalculateTotalAmount()
+        +DisplayOrderInfo()
+    }
+    class OrderItem {
+        +string Name
+        +decimal Price
+        +int Quantity
+        +decimal TotalPrice
+        +OrderItem(name, price, quantity)
+    }
+    class MenuItem {
+        +string Name
+        +decimal Price
+        +MenuItem(name, price)
+    }
+    class OrderStatus {
+        &lt;&lt;enumeration&gt;&gt;
+        Pending
+        DeliveryAccepted
+        Delivered
+        Completed
+        Cancelled
+    }
+    Meituan o-- Customer : 聚合
+    Meituan o-- Merchant : 聚合
+    Meituan o-- Deliveryman : 聚合
+    Order *-- OrderItem : 组合
+    Merchant *-- MenuItem : 组合
+    Order --> Customer : 关联
+    Order --> Merchant : 关联
+    Order --> OrderStatus : 关联
+    Deliveryman --> Order : 关联
+    Customer --> Merchant : 关联
+    Customer ..> OrderItem : 依赖
+    Deliveryman ..> OrderStatus : 依赖
+</div>
+</div>
+
+<!-- 关系知识回顾 -->
+<div class="relation-explain">
+  <h3>知识回顾：UML 类图中的类间关系</h3>
+  <p style="font-size:13px; color:#666; margin-bottom:14px;">类与类之间的关系从弱到强排列如下，强度越强意味着两个类的耦合程度越高。</p>
+
+  <div class="relation-card" style="border-left-color: #95a5a6;">
+    <h4>1. 依赖（Dependency）<span class="strength-bar"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></span></h4>
+    <div class="notation">符号：虚线箭头  ..&gt;</div>
+    <p><strong>含义：</strong>一个类使用另一个类作为局部变量、方法参数或静态方法调用的返回值。是最弱的关系，<strong>临时性的使用</strong>，用完就结束。</p>
+    <p><strong>特点：</strong>被依赖类的变化会影响使用它的类，但反过来不影响。</p>
+    <div class="example"><strong>本例：</strong>Customer.PlaceOrder() 方法参数中使用了 OrderItem；Deliveryman.AcceptOrder() 中修改了 OrderStatus</div>
+  </div>
+
+  <div class="relation-card" style="border-left-color: #3498db;">
+    <h4>2. 关联（Association）<span class="strength-bar"><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></span></h4>
+    <div class="notation">符号：实线箭头  ──&gt;</div>
+    <p><strong>含义：</strong>一个类将另一个类的<strong>实例作为成员变量（属性）</strong>持有。比依赖更强，是<strong>长期稳定的引用关系</strong>。</p>
+    <p><strong>特点：</strong>A 类中有 B 类类型的属性，A 知道 B 的存在。关联关系可以通过字段体现出来。</p>
+    <div class="example"><strong>本例：</strong>Order 中有 Customer 类型的 Customer 属性、Merchant 类型的 Merchant 属性、OrderStatus 类型的 Status 属性；Deliveryman 中有 Order 类型的 CurrentOrder 属性</div>
+  </div>
+
+  <div class="relation-card" style="border-left-color: #2ecc71;">
+    <h4>3. 聚合（Aggregation）<span class="strength-bar"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></span></h4>
+    <div class="notation">符号：空心菱形  ◇──</div>
+    <p><strong>含义：</strong>一种特殊的关联，表示"<strong>has-a</strong>"（整体-部分）关系，但部分可以<strong>脱离整体独立存在</strong>。部分对象的生命周期不由整体控制。</p>
+    <p><strong>特点：</strong>整体和部分的关系相对松散。例如一个班级的学生离开了班级，学生依然存在。</p>
+    <div class="example"><strong>本例：</strong>Meituan 持有 Customer/Merchant/Deliveryman 的列表（聚合），这些对象也可以脱离 Meituan 独立存在（顾客不通过美团也能存在）</div>
+  </div>
+
+  <div class="relation-card" style="border-left-color: #e74c3c;">
+    <h4>4. 组合（Composition）<span class="strength-bar"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></span></h4>
+    <div class="notation">符号：实心菱形  ◆──</div>
+    <p><strong>含义：</strong>最强的"has-a"关系，表示<strong>部分不能脱离整体而存在</strong>。部分对象的生命周期与整体绑定——整体创建时创建，整体销毁时销毁。</p>
+    <p><strong>特点：</strong>组合关系在代码中通常体现为：整体类的构造函数中创建部分对象，部分对象没有公共的创建入口。</p>
+    <div class="example"><strong>本例：</strong>Order 在构造函数中创建 OrderItem 列表，MenuItem 由 Merchant.AddMenuItem() 创建——订单项不能脱离订单单独存在，菜品不能脱离商家单独存在</div>
+  </div>
+
+  <div class="relation-card" style="border-left-color: #9b59b6;">
+    <h4>5. 泛化/继承（Generalization）<span class="strength-bar"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></span></h4>
+    <div class="notation">符号：空心三角箭头  ──|&gt;</div>
+    <p><strong>含义：</strong>即面向对象中的<strong>继承关系</strong>（is-a）。子类继承父类的属性和方法，可以添加新成员或重写已有方法。</p>
+    <p><strong>特点：</strong>子类是父类的特化。代码中用 <code>: ParentClass</code> 语法表示。</p>
+    <div class="example"><strong>本例：</strong>本项目中暂无继承关系。但在实际系统中，可能会有 Order 的多个子类（如 TakeoutOrder、DineInOrder）</div>
+  </div>
+
+  <div class="relation-card" style="border-left-color: #f39c12;">
+    <h4>6. 实现（Realization）</h4>
+    <div class="notation">符号：虚线空心三角箭头  ..|&gt;</div>
+    <p><strong>含义：</strong>类实现接口。接口定义了契约，实现类负责提供具体实现。</p>
+    <p><strong>特点：</strong>C# 中用 <code>: IInterface</code> 语法表示。一个类可以实现多个接口，但只能继承一个父类。</p>
+    <div class="example"><strong>本例：</strong>本项目中暂无接口实现。但在实际系统中，可能会有 IOrderService、IDeliveryStrategy 等接口</div>
+  </div>
+
+  <div style="margin-top: 16px; padding: 12px; background: #e8f6f3; border-radius: 4px; font-size: 13px;">
+    <strong>记忆口诀：</strong>依赖（虚线箭头）&lt; 关联（实线箭头）&lt; 聚合（空心菱形）&lt; 组合（实心菱形）≤ 继承/实现（三角箭头）<br>
+    关系强度从左到右递增，强度越大两个类之间的<strong>耦合度</strong>越高。
+  </div>
+</div>
+
+<div class="table-section">
+  <h3>关系汇总表</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>源类</th>
+        <th>关系类型</th>
+        <th>目标类</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Meituan</td><td>◇ 聚合</td><td>Customer</td><td>管理顾客列表</td></tr>
+      <tr><td>Meituan</td><td>◇ 聚合</td><td>Merchant</td><td>管理商家列表</td></tr>
+      <tr><td>Meituan</td><td>◇ 聚合</td><td>Deliveryman</td><td>管理快递员列表</td></tr>
+      <tr><td>Order</td><td>◆ 组合</td><td>OrderItem</td><td>订单商品（同生命周期）</td></tr>
+      <tr><td>Merchant</td><td>◆ 组合</td><td>MenuItem</td><td>菜单菜品（同生命周期）</td></tr>
+      <tr><td>Order</td><td>── 关联</td><td>Customer</td><td>订单关联顾客</td></tr>
+      <tr><td>Order</td><td>── 关联</td><td>Merchant</td><td>订单关联商家</td></tr>
+      <tr><td>Order</td><td>── 关联</td><td>OrderStatus</td><td>订单状态属性</td></tr>
+      <tr><td>Deliveryman</td><td>── 关联</td><td>Order</td><td>当前配送订单</td></tr>
+      <tr><td>Customer</td><td>── 关联</td><td>Merchant</td><td>下单时需商家信息</td></tr>
+      <tr><td>Customer</td><td>.. 依赖</td><td>OrderItem</td><td>下单时传入商品列表</td></tr>
+      <tr><td>Deliveryman</td><td>.. 依赖</td><td>OrderStatus</td><td>接单时更新状态</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>
