@@ -8,6 +8,8 @@ namespace ARClass_Ex_02
     {
         static void Main(string[] args)
         {
+
+
             Meituan meituan = new Meituan();
             InitializeTestData(meituan);
 

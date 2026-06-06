@@ -1,2 +1,6 @@
-﻿  LINK : 没有找到 I:\CodePractice\C++\C++\Debug\atuo变量.exe 或上一个增量链接没有生成它；正在执行完全链接
+﻿E:\VisualStudio2019\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : 文件“i:\codepractice\c++\atuo变量\debug\atuo变量.obj”正由另一进程使用，因此该进程无法访问此文件。
+  atuo变量.cpp
+I:\CodePractice\C++\atuo变量\atuo变量.cpp(16,23): warning C4018: “<”: 有符号/无符号不匹配
+I:\CodePractice\C++\atuo变量\atuo变量.cpp(29,23): warning C4018: “<”: 有符号/无符号不匹配
+I:\CodePractice\C++\atuo变量\atuo变量.cpp(42,23): warning C4018: “<”: 有符号/无符号不匹配
   atuo变量.vcxproj -> I:\CodePractice\C++\C++\Debug\atuo变量.exe
